@@ -1,0 +1,33 @@
+{
+  "signUpLoginPage": {
+    "newUserAssertion": "New User Signup!",
+    "name": "Nada",
+    "email": "nada.emad@GizaSystems.com"
+  },
+  "signUpInfoPage": {
+    "accountInfoAssertion": "ENTER ACCOUNT INFORMATION",
+    "password": "1234",
+    "days": "25",
+    "months": "8",
+    "years": "2000",
+    "firstName": "Nada",
+    "lastName" : "Emad",
+    "company" : "Giza Systems",
+    "address1" : "New Cairo",
+    "address2" : "second sector",
+    "country" : "India",
+    "state" : "Bihar",
+    "city" : "Bihar",
+    "zipcode": "123456",
+    "mobileNumber" : "01005457869"
+  },
+  "accountCreatedPage": {
+    "accountCreatedAssertion" : "ACCOUNT CREATED!"
+  },
+  "homePage": {
+    "loggedUserAssertion" : "Nada"
+  },
+  "deleteAccountPage": {
+    "deleteAccountAssertion" : "ACCOUNT DELETED!"
+  }
+}

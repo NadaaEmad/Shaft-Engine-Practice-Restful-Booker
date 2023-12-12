@@ -1,0 +1,14 @@
+{
+  "booking": {
+    "firstname": "Mahmoud",
+    "additionalneeds": "Metdla3a",
+    "bookingdates": {
+      "checkin": "2023-01-01",
+      "checkout": "2024-01-01"
+    },
+    "totalprice": 111,
+    "depositpaid": true,
+    "lastname": "ElSharkawy"
+  },
+  "bookingid": 2157
+}

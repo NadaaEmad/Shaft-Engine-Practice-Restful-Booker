@@ -1,0 +1,123 @@
+[INFO ] 2023-12-11 12:25:51.420 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.7.4.20231026[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-11 12:25:52.573 [main] ReportManager - Loaded OpenCV "opencv_java470".
+[INFO ] 2023-12-11 12:25:52.574 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2023-12-11 12:26:04.163 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2023-12-11 12:26:04.860 [main] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2023-12-11 12:26:04.876 [main] ReportManager - TestNG run detected...
+[INFO ] 2023-12-11 12:26:05.114 [main] Utils - [TestNG] Running:
+  C:\Users\nada.emad\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-12-11 12:26:05.148 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-11 12:26:05.290 [main] ReportManager - Initializing Important Links...
+[INFO ] 2023-12-11 12:26:05.299 [main] ReportManager - Initializing Properties...
+[INFO ] 2023-12-11 12:26:05.445 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of before class configuration method                                             
+                                                       'RestfulBookerApiTest.beforeClass'                                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-11 12:26:06.374 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                Test Method: 'RestfulBookerApiTest.getTokenTest'                                                
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2023-12-11 12:26:08.232 [main] BasicClientConnectionManager - Get connection for route {s}->https://restful-booker.herokuapp.com:443
+[DEBUG] 2023-12-11 12:26:08.323 [main] DefaultClientConnectionOperator - Connecting to restful-booker.herokuapp.com:443
+[DEBUG] 2023-12-11 12:26:08.959 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2023-12-11 12:26:08.960 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2023-12-11 12:26:08.960 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2023-12-11 12:26:08.961 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2023-12-11 12:26:08.961 [main] DefaultClientConnection - Sending request: POST /auth HTTP/1.1
+[DEBUG] 2023-12-11 12:26:08.961 [main] wire -  >> "POST /auth HTTP/1.1[\r][\n]"
+[DEBUG] 2023-12-11 12:26:08.962 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2023-12-11 12:26:08.962 [main] wire -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[DEBUG] 2023-12-11 12:26:08.962 [main] wire -  >> "Content-Length: 61[\r][\n]"
+[DEBUG] 2023-12-11 12:26:08.963 [main] wire -  >> "Host: restful-booker.herokuapp.com[\r][\n]"
+[DEBUG] 2023-12-11 12:26:08.963 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2023-12-11 12:26:08.963 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.1)[\r][\n]"
+[DEBUG] 2023-12-11 12:26:08.963 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2023-12-11 12:26:08.963 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2023-12-11 12:26:08.963 [main] headers - >> POST /auth HTTP/1.1
+[DEBUG] 2023-12-11 12:26:08.963 [main] headers - >> Accept: */*
+[DEBUG] 2023-12-11 12:26:08.963 [main] headers - >> Content-Type: application/json; charset=UTF-8
+[DEBUG] 2023-12-11 12:26:08.963 [main] headers - >> Content-Length: 61
+[DEBUG] 2023-12-11 12:26:08.963 [main] headers - >> Host: restful-booker.herokuapp.com
+[DEBUG] 2023-12-11 12:26:08.963 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2023-12-11 12:26:08.963 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.1)
+[DEBUG] 2023-12-11 12:26:08.963 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2023-12-11 12:26:08.964 [main] wire -  >> "{[\n]"
+[DEBUG] 2023-12-11 12:26:08.964 [main] wire -  >> "    "username" : "admin",[\n]"
+[DEBUG] 2023-12-11 12:26:08.964 [main] wire -  >> "    "password" : "password123"[\n]"
+[DEBUG] 2023-12-11 12:26:08.964 [main] wire -  >> "}[\n]"
+[DEBUG] 2023-12-11 12:26:09.129 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2023-12-11 12:26:09.131 [main] wire -  << "Server: Cowboy[\r][\n]"
+[DEBUG] 2023-12-11 12:26:09.132 [main] wire -  << "Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1702290331&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=jOqKRiL5nFPob%2BdjghfSf4Up7KmJ%2F5YNONRzD88kuL0%3D"}]}[\r][\n]"
+[DEBUG] 2023-12-11 12:26:09.132 [main] wire -  << "Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1702290331&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=jOqKRiL5nFPob%2BdjghfSf4Up7KmJ%2F5YNONRzD88kuL0%3D[\r][\n]"
+[DEBUG] 2023-12-11 12:26:09.132 [main] wire -  << "Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}[\r][\n]"
+[DEBUG] 2023-12-11 12:26:09.132 [main] wire -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2023-12-11 12:26:09.132 [main] wire -  << "X-Powered-By: Express[\r][\n]"
+[DEBUG] 2023-12-11 12:26:09.132 [main] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2023-12-11 12:26:09.132 [main] wire -  << "Content-Length: 27[\r][\n]"
+[DEBUG] 2023-12-11 12:26:09.132 [main] wire -  << "Etag: W/"1b-suLoGTRhh9dS8VfI+SRDiBnPBKU"[\r][\n]"
+[DEBUG] 2023-12-11 12:26:09.132 [main] wire -  << "Date: Mon, 11 Dec 2023 10:25:31 GMT[\r][\n]"
+[DEBUG] 2023-12-11 12:26:09.132 [main] wire -  << "Via: 1.1 vegur[\r][\n]"
+[DEBUG] 2023-12-11 12:26:09.132 [main] wire -  << "[\r][\n]"
+[DEBUG] 2023-12-11 12:26:09.133 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2023-12-11 12:26:09.133 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2023-12-11 12:26:09.133 [main] headers - << Server: Cowboy
+[DEBUG] 2023-12-11 12:26:09.133 [main] headers - << Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1702290331&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=jOqKRiL5nFPob%2BdjghfSf4Up7KmJ%2F5YNONRzD88kuL0%3D"}]}
+[DEBUG] 2023-12-11 12:26:09.133 [main] headers - << Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1702290331&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=jOqKRiL5nFPob%2BdjghfSf4Up7KmJ%2F5YNONRzD88kuL0%3D
+[DEBUG] 2023-12-11 12:26:09.133 [main] headers - << Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+[DEBUG] 2023-12-11 12:26:09.133 [main] headers - << Connection: keep-alive
+[DEBUG] 2023-12-11 12:26:09.133 [main] headers - << X-Powered-By: Express
+[DEBUG] 2023-12-11 12:26:09.134 [main] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2023-12-11 12:26:09.134 [main] headers - << Content-Length: 27
+[DEBUG] 2023-12-11 12:26:09.134 [main] headers - << Etag: W/"1b-suLoGTRhh9dS8VfI+SRDiBnPBKU"
+[DEBUG] 2023-12-11 12:26:09.134 [main] headers - << Date: Mon, 11 Dec 2023 10:25:31 GMT
+[DEBUG] 2023-12-11 12:26:09.134 [main] headers - << Via: 1.1 vegur
+[DEBUG] 2023-12-11 12:26:09.142 [main] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2023-12-11 12:26:09.142 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[INFO ] 2023-12-11 12:26:09.181 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2023-12-11 12:26:09.226 [main] ReportManager - Assertion "ValidateComparativeRelation" PASSED. Expected "200" and Actual "200". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[DEBUG] 2023-12-11 12:26:09.278 [main] wire -  << "{"token":"801148b7b983b02"}"
+[DEBUG] 2023-12-11 12:26:09.279 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2c6c6b7b
+[DEBUG] 2023-12-11 12:26:09.279 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2023-12-11 12:26:10.606 [main] ReportManager - Successfully created attachment 'API Request - Specifications'
+[DEBUG] 2023-12-11 12:26:10.664 [main] cache - Couldn't find template in cache for "codeblock.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-11 12:26:10.667 [main] cache - TemplateLoader.findTemplateSource("codeblock_en_US.ftl"): Not found
+[DEBUG] 2023-12-11 12:26:10.670 [main] cache - TemplateLoader.findTemplateSource("codeblock_en.ftl"): Not found
+[DEBUG] 2023-12-11 12:26:10.672 [main] cache - TemplateLoader.findTemplateSource("codeblock.ftl"): Found
+[DEBUG] 2023-12-11 12:26:10.672 [main] cache - Loading template for "codeblock.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nada.emad/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/markup/codeblock.ftl"
+[DEBUG] 2023-12-11 12:26:10.862 [main] cache - Couldn't find template in cache for "codeblock.json.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-11 12:26:10.863 [main] cache - TemplateLoader.findTemplateSource("codeblock.json_en_US.ftl"): Not found
+[DEBUG] 2023-12-11 12:26:10.863 [main] cache - TemplateLoader.findTemplateSource("codeblock.json_en.ftl"): Not found
+[DEBUG] 2023-12-11 12:26:10.863 [main] cache - TemplateLoader.findTemplateSource("codeblock.json.ftl"): Found
+[DEBUG] 2023-12-11 12:26:10.863 [main] cache - Loading template for "codeblock.json.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nada.emad/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/markup/codeblock.json.ftl"
+[INFO ] 2023-12-11 12:26:10.911 [main] ReportManager - Successfully created attachment 'API Request - JSON Body'
+[INFO ] 2023-12-11 12:26:10.913 [main] ReportManager - Successfully created attachment 'API Response - JSON Body'
+[INFO ] 2023-12-11 12:26:10.939 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: getTokenTest'
+[INFO ] 2023-12-11 12:26:10.940 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                     Finished Execution of Test Method: 'RestfulBookerApiTest.getTokenTest'                                     
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-11 12:26:11.166 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine teardown configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-11 12:26:11.167 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2023-12-11 12:26:11.168 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2023-12-11 12:26:11.169 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".

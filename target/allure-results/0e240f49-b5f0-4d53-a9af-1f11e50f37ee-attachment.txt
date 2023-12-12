@@ -1,0 +1,13 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                Test Method: 'RestfulBookerApiTest.getTokenTest'                                                
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @11-12-2023 12:26:09.0181 PM
+[ReportManager] Assertion "ValidateComparativeRelation" PASSED. Expected "200" and Actual "200". Comparison Type "EQUALS". Validation Type "POSITIVE". @11-12-2023 12:26:09.0226 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code 200 against the expected one 200. @11-12-2023 12:26:09.0227 PM
+[ReportManager] Request details:  "POST | Target Status Code: 200 | Service URL: https://restful-booker.herokuapp.com/auth | Content Type: application/json | Response Time: 1546ms". @11-12-2023 12:26:10.0602 PM
+[ReportManager] Successfully created attachment 'API Request - Specifications' @11-12-2023 12:26:10.0606 PM
+[ReportManager] Successfully created attachment 'API Request - JSON Body' @11-12-2023 12:26:10.0911 PM
+[ReportManager] Successfully created attachment 'API Response - JSON Body' @11-12-2023 12:26:10.0913 PM

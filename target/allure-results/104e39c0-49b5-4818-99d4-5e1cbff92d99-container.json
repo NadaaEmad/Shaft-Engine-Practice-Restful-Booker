@@ -1,0 +1,1 @@
+{"uuid":"104e39c0-49b5-4818-99d4-5e1cbff92d99","name":"RestfulBookerApiTest","children":["a9a15322-5811-4f5f-896f-18f0cf4adf7b"],"befores":[{"name":"beforeClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1702292099056,"stop":1702292099611}],"afters":[],"start":1702292099035,"stop":1702292102696}

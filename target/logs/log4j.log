@@ -1,0 +1,467 @@
+[INFO ] 2023-12-12 12:56:53.763 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.7.4.20231026[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-12 12:56:54.536 [main] ReportManager - Loaded OpenCV "opencv_java470".
+[INFO ] 2023-12-12 12:56:54.536 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2023-12-12 12:56:54.669 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2023-12-12 12:56:55.120 [main] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2023-12-12 12:56:55.139 [main] ReportManager - TestNG run detected...
+[INFO ] 2023-12-12 12:56:55.343 [main] Utils - [TestNG] Running:
+  C:\Users\nada.emad\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-12-12 12:56:55.372 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-12 12:56:55.501 [main] ReportManager - Initializing Important Links...
+[INFO ] 2023-12-12 12:56:55.508 [main] ReportManager - Initializing Properties...
+[INFO ] 2023-12-12 12:56:55.649 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of before class configuration method                                             
+                                                     'RestfulBookerLinearTests.beforeClass'                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2023-12-12 12:56:57.454 [main] BasicClientConnectionManager - Get connection for route {s}->https://restful-booker.herokuapp.com:443
+[DEBUG] 2023-12-12 12:56:57.521 [main] DefaultClientConnectionOperator - Connecting to restful-booker.herokuapp.com:443
+[DEBUG] 2023-12-12 12:56:58.341 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2023-12-12 12:56:58.342 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2023-12-12 12:56:58.342 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2023-12-12 12:56:58.342 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2023-12-12 12:56:58.342 [main] DefaultClientConnection - Sending request: POST /auth HTTP/1.1
+[DEBUG] 2023-12-12 12:56:58.342 [main] wire -  >> "POST /auth HTTP/1.1[\r][\n]"
+[DEBUG] 2023-12-12 12:56:58.344 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2023-12-12 12:56:58.344 [main] wire -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[DEBUG] 2023-12-12 12:56:58.344 [main] wire -  >> "Content-Length: 61[\r][\n]"
+[DEBUG] 2023-12-12 12:56:58.344 [main] wire -  >> "Host: restful-booker.herokuapp.com[\r][\n]"
+[DEBUG] 2023-12-12 12:56:58.344 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2023-12-12 12:56:58.344 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.1)[\r][\n]"
+[DEBUG] 2023-12-12 12:56:58.344 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2023-12-12 12:56:58.344 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2023-12-12 12:56:58.344 [main] headers - >> POST /auth HTTP/1.1
+[DEBUG] 2023-12-12 12:56:58.344 [main] headers - >> Accept: */*
+[DEBUG] 2023-12-12 12:56:58.344 [main] headers - >> Content-Type: application/json; charset=UTF-8
+[DEBUG] 2023-12-12 12:56:58.344 [main] headers - >> Content-Length: 61
+[DEBUG] 2023-12-12 12:56:58.344 [main] headers - >> Host: restful-booker.herokuapp.com
+[DEBUG] 2023-12-12 12:56:58.344 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2023-12-12 12:56:58.344 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.1)
+[DEBUG] 2023-12-12 12:56:58.345 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2023-12-12 12:56:58.345 [main] wire -  >> "{[\n]"
+[DEBUG] 2023-12-12 12:56:58.345 [main] wire -  >> "    "username" : "admin",[\n]"
+[DEBUG] 2023-12-12 12:56:58.345 [main] wire -  >> "    "password" : "password123"[\n]"
+[DEBUG] 2023-12-12 12:56:58.345 [main] wire -  >> "}[\n]"
+[DEBUG] 2023-12-12 12:56:58.512 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2023-12-12 12:56:58.514 [main] wire -  << "Server: Cowboy[\r][\n]"
+[DEBUG] 2023-12-12 12:56:58.514 [main] wire -  << "Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1702378579&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=DR74pMcULd6ghlw9i8AapDbuwnvZ6jaRAFOFxc%2FgLGs%3D"}]}[\r][\n]"
+[DEBUG] 2023-12-12 12:56:58.514 [main] wire -  << "Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1702378579&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=DR74pMcULd6ghlw9i8AapDbuwnvZ6jaRAFOFxc%2FgLGs%3D[\r][\n]"
+[DEBUG] 2023-12-12 12:56:58.514 [main] wire -  << "Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}[\r][\n]"
+[DEBUG] 2023-12-12 12:56:58.514 [main] wire -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2023-12-12 12:56:58.514 [main] wire -  << "X-Powered-By: Express[\r][\n]"
+[DEBUG] 2023-12-12 12:56:58.515 [main] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2023-12-12 12:56:58.515 [main] wire -  << "Content-Length: 27[\r][\n]"
+[DEBUG] 2023-12-12 12:56:58.515 [main] wire -  << "Etag: W/"1b-KGKI7ZI70h90QUb8itVia5T1Xmw"[\r][\n]"
+[DEBUG] 2023-12-12 12:56:58.515 [main] wire -  << "Date: Tue, 12 Dec 2023 10:56:19 GMT[\r][\n]"
+[DEBUG] 2023-12-12 12:56:58.515 [main] wire -  << "Via: 1.1 vegur[\r][\n]"
+[DEBUG] 2023-12-12 12:56:58.515 [main] wire -  << "[\r][\n]"
+[DEBUG] 2023-12-12 12:56:58.517 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2023-12-12 12:56:58.517 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2023-12-12 12:56:58.517 [main] headers - << Server: Cowboy
+[DEBUG] 2023-12-12 12:56:58.517 [main] headers - << Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1702378579&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=DR74pMcULd6ghlw9i8AapDbuwnvZ6jaRAFOFxc%2FgLGs%3D"}]}
+[DEBUG] 2023-12-12 12:56:58.517 [main] headers - << Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1702378579&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=DR74pMcULd6ghlw9i8AapDbuwnvZ6jaRAFOFxc%2FgLGs%3D
+[DEBUG] 2023-12-12 12:56:58.517 [main] headers - << Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+[DEBUG] 2023-12-12 12:56:58.517 [main] headers - << Connection: keep-alive
+[DEBUG] 2023-12-12 12:56:58.517 [main] headers - << X-Powered-By: Express
+[DEBUG] 2023-12-12 12:56:58.517 [main] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2023-12-12 12:56:58.517 [main] headers - << Content-Length: 27
+[DEBUG] 2023-12-12 12:56:58.517 [main] headers - << Etag: W/"1b-KGKI7ZI70h90QUb8itVia5T1Xmw"
+[DEBUG] 2023-12-12 12:56:58.517 [main] headers - << Date: Tue, 12 Dec 2023 10:56:19 GMT
+[DEBUG] 2023-12-12 12:56:58.517 [main] headers - << Via: 1.1 vegur
+[DEBUG] 2023-12-12 12:56:58.528 [main] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2023-12-12 12:56:58.528 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[INFO ] 2023-12-12 12:56:58.584 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2023-12-12 12:56:58.627 [main] ReportManager - Assertion "ValidateComparativeRelation" PASSED. Expected "200" and Actual "200". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[DEBUG] 2023-12-12 12:56:58.670 [main] wire -  << "{"token":"6747fdb09248b99"}"
+[DEBUG] 2023-12-12 12:56:58.671 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@21f48f6c
+[DEBUG] 2023-12-12 12:56:58.671 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2023-12-12 12:56:59.545 [main] ReportManager - Successfully created attachment 'API Request - Specifications'
+[INFO ] 2023-12-12 12:56:59.546 [main] ReportManager - Successfully created attachment 'API Request - JSON Body'
+[INFO ] 2023-12-12 12:56:59.548 [main] ReportManager - Successfully created attachment 'API Response - JSON Body'
+[DEBUG] 2023-12-12 12:56:59.665 [main] CompiledPath - Evaluating path: $['token']
+[INFO ] 2023-12-12 12:56:59.669 [main] ReportManager - Get response jsonvalue "token".
+[INFO ] 2023-12-12 12:56:59.695 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 2' test cases in the current suite                                        
+                                            Test Method: 'RestfulBookerLinearTests.createBookingTest'                                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2023-12-12 12:56:59.718 [main] BasicClientConnectionManager - Get connection for route {s}->https://restful-booker.herokuapp.com:443
+[DEBUG] 2023-12-12 12:56:59.718 [main] DefaultClientConnectionOperator - Connecting to restful-booker.herokuapp.com:443
+[DEBUG] 2023-12-12 12:57:00.299 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2023-12-12 12:57:00.299 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2023-12-12 12:57:00.299 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2023-12-12 12:57:00.299 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2023-12-12 12:57:00.299 [main] DefaultClientConnection - Sending request: POST /booking HTTP/1.1
+[DEBUG] 2023-12-12 12:57:00.299 [main] wire -  >> "POST /booking HTTP/1.1[\r][\n]"
+[DEBUG] 2023-12-12 12:57:00.299 [main] wire -  >> "Cookie: token=6747fdb09248b99[\r][\n]"
+[DEBUG] 2023-12-12 12:57:00.300 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2023-12-12 12:57:00.300 [main] wire -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[DEBUG] 2023-12-12 12:57:00.300 [main] wire -  >> "Content-Length: 247[\r][\n]"
+[DEBUG] 2023-12-12 12:57:00.300 [main] wire -  >> "Host: restful-booker.herokuapp.com[\r][\n]"
+[DEBUG] 2023-12-12 12:57:00.300 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2023-12-12 12:57:00.300 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.1)[\r][\n]"
+[DEBUG] 2023-12-12 12:57:00.300 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2023-12-12 12:57:00.300 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2023-12-12 12:57:00.300 [main] headers - >> POST /booking HTTP/1.1
+[DEBUG] 2023-12-12 12:57:00.300 [main] headers - >> Cookie: token=6747fdb09248b99
+[DEBUG] 2023-12-12 12:57:00.300 [main] headers - >> Accept: */*
+[DEBUG] 2023-12-12 12:57:00.300 [main] headers - >> Content-Type: application/json; charset=UTF-8
+[DEBUG] 2023-12-12 12:57:00.300 [main] headers - >> Content-Length: 247
+[DEBUG] 2023-12-12 12:57:00.300 [main] headers - >> Host: restful-booker.herokuapp.com
+[DEBUG] 2023-12-12 12:57:00.300 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2023-12-12 12:57:00.300 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.1)
+[DEBUG] 2023-12-12 12:57:00.300 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2023-12-12 12:57:00.300 [main] wire -  >> "{[\n]"
+[DEBUG] 2023-12-12 12:57:00.300 [main] wire -  >> "    "firstname" : "Mahmoud",[\n]"
+[DEBUG] 2023-12-12 12:57:00.300 [main] wire -  >> "    "lastname" : "ElSharkawy",[\n]"
+[DEBUG] 2023-12-12 12:57:00.301 [main] wire -  >> "    "totalprice" : 111,[\n]"
+[DEBUG] 2023-12-12 12:57:00.301 [main] wire -  >> "    "depositpaid" : true,[\n]"
+[DEBUG] 2023-12-12 12:57:00.301 [main] wire -  >> "    "bookingdates" : {[\n]"
+[DEBUG] 2023-12-12 12:57:00.301 [main] wire -  >> "        "checkin" : "2023-01-01",[\n]"
+[DEBUG] 2023-12-12 12:57:00.301 [main] wire -  >> "        "checkout" : "2024-01-01"[\n]"
+[DEBUG] 2023-12-12 12:57:00.301 [main] wire -  >> "    },[\n]"
+[DEBUG] 2023-12-12 12:57:00.301 [main] wire -  >> "    "additionalneeds" : "Metdla3a"[\n]"
+[DEBUG] 2023-12-12 12:57:00.301 [main] wire -  >> "}[\n]"
+[DEBUG] 2023-12-12 12:57:00.446 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2023-12-12 12:57:00.446 [main] wire -  << "Server: Cowboy[\r][\n]"
+[DEBUG] 2023-12-12 12:57:00.446 [main] wire -  << "Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1702378581&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=Tg3V%2BwdSwjNRtkJHa34vHeWF9K%2Bm1XRkq8X9lxgTe6o%3D"}]}[\r][\n]"
+[DEBUG] 2023-12-12 12:57:00.446 [main] wire -  << "Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1702378581&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=Tg3V%2BwdSwjNRtkJHa34vHeWF9K%2Bm1XRkq8X9lxgTe6o%3D[\r][\n]"
+[DEBUG] 2023-12-12 12:57:00.446 [main] wire -  << "Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}[\r][\n]"
+[DEBUG] 2023-12-12 12:57:00.446 [main] wire -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2023-12-12 12:57:00.446 [main] wire -  << "X-Powered-By: Express[\r][\n]"
+[DEBUG] 2023-12-12 12:57:00.446 [main] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2023-12-12 12:57:00.446 [main] wire -  << "Content-Length: 205[\r][\n]"
+[DEBUG] 2023-12-12 12:57:00.446 [main] wire -  << "Etag: W/"cd-wgJ/XvYpJXLEJdIq5PGgB83HIBc"[\r][\n]"
+[DEBUG] 2023-12-12 12:57:00.446 [main] wire -  << "Date: Tue, 12 Dec 2023 10:56:21 GMT[\r][\n]"
+[DEBUG] 2023-12-12 12:57:00.448 [main] wire -  << "Via: 1.1 vegur[\r][\n]"
+[DEBUG] 2023-12-12 12:57:00.448 [main] wire -  << "[\r][\n]"
+[DEBUG] 2023-12-12 12:57:00.448 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2023-12-12 12:57:00.448 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2023-12-12 12:57:00.448 [main] headers - << Server: Cowboy
+[DEBUG] 2023-12-12 12:57:00.448 [main] headers - << Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1702378581&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=Tg3V%2BwdSwjNRtkJHa34vHeWF9K%2Bm1XRkq8X9lxgTe6o%3D"}]}
+[DEBUG] 2023-12-12 12:57:00.448 [main] headers - << Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1702378581&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=Tg3V%2BwdSwjNRtkJHa34vHeWF9K%2Bm1XRkq8X9lxgTe6o%3D
+[DEBUG] 2023-12-12 12:57:00.448 [main] headers - << Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+[DEBUG] 2023-12-12 12:57:00.448 [main] headers - << Connection: keep-alive
+[DEBUG] 2023-12-12 12:57:00.448 [main] headers - << X-Powered-By: Express
+[DEBUG] 2023-12-12 12:57:00.448 [main] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2023-12-12 12:57:00.448 [main] headers - << Content-Length: 205
+[DEBUG] 2023-12-12 12:57:00.448 [main] headers - << Etag: W/"cd-wgJ/XvYpJXLEJdIq5PGgB83HIBc"
+[DEBUG] 2023-12-12 12:57:00.448 [main] headers - << Date: Tue, 12 Dec 2023 10:56:21 GMT
+[DEBUG] 2023-12-12 12:57:00.448 [main] headers - << Via: 1.1 vegur
+[DEBUG] 2023-12-12 12:57:00.449 [main] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2023-12-12 12:57:00.449 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[INFO ] 2023-12-12 12:57:00.450 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2023-12-12 12:57:00.451 [main] ReportManager - Assertion "ValidateComparativeRelation" PASSED. Expected "200" and Actual "200". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[DEBUG] 2023-12-12 12:57:00.456 [main] wire -  << "{"bookingid":2157,"booking":{"firstname":"Mahmoud","lastname":"ElSharkawy","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2023-01-01","checkout":"2024-01-01"},"additionalneeds":"Metdla3a"}}"
+[DEBUG] 2023-12-12 12:57:00.456 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7bff608c
+[DEBUG] 2023-12-12 12:57:00.456 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2023-12-12 12:57:00.476 [main] ReportManager - Successfully created attachment 'API Request - Specifications'
+[DEBUG] 2023-12-12 12:57:00.507 [main] cache - Couldn't find template in cache for "codeblock.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-12 12:57:00.508 [main] cache - TemplateLoader.findTemplateSource("codeblock_en_US.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:00.510 [main] cache - TemplateLoader.findTemplateSource("codeblock_en.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:00.511 [main] cache - TemplateLoader.findTemplateSource("codeblock.ftl"): Found
+[DEBUG] 2023-12-12 12:57:00.511 [main] cache - Loading template for "codeblock.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nada.emad/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/markup/codeblock.ftl"
+[DEBUG] 2023-12-12 12:57:00.660 [main] cache - Couldn't find template in cache for "codeblock.json.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-12 12:57:00.661 [main] cache - TemplateLoader.findTemplateSource("codeblock.json_en_US.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:00.661 [main] cache - TemplateLoader.findTemplateSource("codeblock.json_en.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:00.661 [main] cache - TemplateLoader.findTemplateSource("codeblock.json.ftl"): Found
+[DEBUG] 2023-12-12 12:57:00.661 [main] cache - Loading template for "codeblock.json.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nada.emad/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/markup/codeblock.json.ftl"
+[INFO ] 2023-12-12 12:57:00.691 [main] ReportManager - Successfully created attachment 'API Request - JSON Body'
+[INFO ] 2023-12-12 12:57:00.692 [main] ReportManager - Successfully created attachment 'API Response - JSON Body'
+[DEBUG] 2023-12-12 12:57:00.697 [main] CompiledPath - Evaluating path: $['booking']['firstname']
+[INFO ] 2023-12-12 12:57:00.697 [main] ReportManager - Get response jsonvalue "booking.firstname".
+[INFO ] 2023-12-12 12:57:00.699 [main] ReportManager - Expected "Mahmoud", and actual "Mahmoud"
+[INFO ] 2023-12-12 12:57:00.703 [main] ReportManager - Verification "ValidateEquals" PASSED. Expected "Mahmoud" and Actual "Mahmoud". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[DEBUG] 2023-12-12 12:57:00.706 [main] CompiledPath - Evaluating path: $['booking']['lastname']
+[INFO ] 2023-12-12 12:57:00.706 [main] ReportManager - Get response jsonvalue "booking.lastname".
+[INFO ] 2023-12-12 12:57:00.706 [main] ReportManager - Expected "ElSharkawy", and actual "ElSharkawy"
+[INFO ] 2023-12-12 12:57:00.707 [main] ReportManager - Verification "ValidateEquals" PASSED. Expected "ElSharkawy" and Actual "ElSharkawy". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[DEBUG] 2023-12-12 12:57:00.708 [main] CompiledPath - Evaluating path: $['booking']['additionalneeds']
+[INFO ] 2023-12-12 12:57:00.709 [main] ReportManager - Get response jsonvalue "booking.additionalneeds".
+[INFO ] 2023-12-12 12:57:00.709 [main] ReportManager - Expected "Metdla3a", and actual "Metdla3a"
+[INFO ] 2023-12-12 12:57:00.709 [main] ReportManager - Verification "ValidateEquals" PASSED. Expected "Metdla3a" and Actual "Metdla3a". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-12 12:57:00.710 [main] ReportManager - Expected ""bookingid":", and actual "{"bookingid":2157,"booking":{"firstname":"Mahmoud","lastname":"ElSharkawy","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2023-01-01","checkout":"2024-01-01"},"additionalneeds":"Metdla3a"}}"
+[INFO ] 2023-12-12 12:57:00.711 [main] ReportManager - Verification "ValidateEquals" PASSED. Expected ""bookingid":" and Actual "{"bookingid":2157,"booking":{"firstname":"Mahmoud","lastname":"ElSharkawy","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2023-01-01","checkout":"2024-01-01"},"additionalneeds":"Metdla3a"}}". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2023-12-12 12:57:00.726 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: createBookingTest'
+[INFO ] 2023-12-12 12:57:00.726 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                 Finished Execution of Test Method: 'RestfulBookerLinearTests.createBookingTest'                                 
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-12 12:57:00.825 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 2' test cases in the current suite                                        
+                                            Test Method: 'RestfulBookerLinearTests.deleteBookingTest'                                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2023-12-12 12:57:00.892 [main] BasicClientConnectionManager - Get connection for route {s}->https://restful-booker.herokuapp.com:443
+[DEBUG] 2023-12-12 12:57:00.892 [main] DefaultClientConnectionOperator - Connecting to restful-booker.herokuapp.com:443
+[DEBUG] 2023-12-12 12:57:00.902 [Finalizer] DefaultClientConnection - Connection 0.0.0.0:59672<->107.22.57.98:443 closed
+[DEBUG] 2023-12-12 12:57:01.494 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2023-12-12 12:57:01.494 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2023-12-12 12:57:01.494 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2023-12-12 12:57:01.495 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2023-12-12 12:57:01.495 [main] DefaultClientConnection - Sending request: GET /booking?firstname=Mahmoud&lastname=ElSharkawy HTTP/1.1
+[DEBUG] 2023-12-12 12:57:01.495 [main] wire -  >> "GET /booking?firstname=Mahmoud&lastname=ElSharkawy HTTP/1.1[\r][\n]"
+[DEBUG] 2023-12-12 12:57:01.495 [main] wire -  >> "Content-Type: */*; charset=UTF-8[\r][\n]"
+[DEBUG] 2023-12-12 12:57:01.495 [main] wire -  >> "Cookie: token=6747fdb09248b99[\r][\n]"
+[DEBUG] 2023-12-12 12:57:01.495 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2023-12-12 12:57:01.495 [main] wire -  >> "Host: restful-booker.herokuapp.com[\r][\n]"
+[DEBUG] 2023-12-12 12:57:01.495 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2023-12-12 12:57:01.495 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.1)[\r][\n]"
+[DEBUG] 2023-12-12 12:57:01.495 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2023-12-12 12:57:01.495 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2023-12-12 12:57:01.495 [main] headers - >> GET /booking?firstname=Mahmoud&lastname=ElSharkawy HTTP/1.1
+[DEBUG] 2023-12-12 12:57:01.495 [main] headers - >> Content-Type: */*; charset=UTF-8
+[DEBUG] 2023-12-12 12:57:01.495 [main] headers - >> Cookie: token=6747fdb09248b99
+[DEBUG] 2023-12-12 12:57:01.495 [main] headers - >> Accept: */*
+[DEBUG] 2023-12-12 12:57:01.495 [main] headers - >> Host: restful-booker.herokuapp.com
+[DEBUG] 2023-12-12 12:57:01.496 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2023-12-12 12:57:01.496 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.1)
+[DEBUG] 2023-12-12 12:57:01.496 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2023-12-12 12:57:01.639 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2023-12-12 12:57:01.639 [main] wire -  << "Server: Cowboy[\r][\n]"
+[DEBUG] 2023-12-12 12:57:01.639 [main] wire -  << "Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1702378582&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=IGv3%2Bt7Tq2xnmwCoEx604YyMhR9uiLx2D0D1bGVCnpc%3D"}]}[\r][\n]"
+[DEBUG] 2023-12-12 12:57:01.639 [main] wire -  << "Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1702378582&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=IGv3%2Bt7Tq2xnmwCoEx604YyMhR9uiLx2D0D1bGVCnpc%3D[\r][\n]"
+[DEBUG] 2023-12-12 12:57:01.639 [main] wire -  << "Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}[\r][\n]"
+[DEBUG] 2023-12-12 12:57:01.639 [main] wire -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2023-12-12 12:57:01.639 [main] wire -  << "X-Powered-By: Express[\r][\n]"
+[DEBUG] 2023-12-12 12:57:01.639 [main] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2023-12-12 12:57:01.639 [main] wire -  << "Content-Length: 20[\r][\n]"
+[DEBUG] 2023-12-12 12:57:01.639 [main] wire -  << "Etag: W/"14-YK9lPDO4FWLKmKDCsntP0Pj0ZUs"[\r][\n]"
+[DEBUG] 2023-12-12 12:57:01.639 [main] wire -  << "Date: Tue, 12 Dec 2023 10:56:22 GMT[\r][\n]"
+[DEBUG] 2023-12-12 12:57:01.639 [main] wire -  << "Via: 1.1 vegur[\r][\n]"
+[DEBUG] 2023-12-12 12:57:01.639 [main] wire -  << "[\r][\n]"
+[DEBUG] 2023-12-12 12:57:01.639 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2023-12-12 12:57:01.639 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2023-12-12 12:57:01.639 [main] headers - << Server: Cowboy
+[DEBUG] 2023-12-12 12:57:01.640 [main] headers - << Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1702378582&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=IGv3%2Bt7Tq2xnmwCoEx604YyMhR9uiLx2D0D1bGVCnpc%3D"}]}
+[DEBUG] 2023-12-12 12:57:01.640 [main] headers - << Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1702378582&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=IGv3%2Bt7Tq2xnmwCoEx604YyMhR9uiLx2D0D1bGVCnpc%3D
+[DEBUG] 2023-12-12 12:57:01.640 [main] headers - << Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+[DEBUG] 2023-12-12 12:57:01.640 [main] headers - << Connection: keep-alive
+[DEBUG] 2023-12-12 12:57:01.640 [main] headers - << X-Powered-By: Express
+[DEBUG] 2023-12-12 12:57:01.640 [main] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2023-12-12 12:57:01.640 [main] headers - << Content-Length: 20
+[DEBUG] 2023-12-12 12:57:01.640 [main] headers - << Etag: W/"14-YK9lPDO4FWLKmKDCsntP0Pj0ZUs"
+[DEBUG] 2023-12-12 12:57:01.640 [main] headers - << Date: Tue, 12 Dec 2023 10:56:22 GMT
+[DEBUG] 2023-12-12 12:57:01.640 [main] headers - << Via: 1.1 vegur
+[DEBUG] 2023-12-12 12:57:01.640 [main] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2023-12-12 12:57:01.640 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[INFO ] 2023-12-12 12:57:01.641 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2023-12-12 12:57:01.643 [main] ReportManager - Expected "true", and actual "true"
+[INFO ] 2023-12-12 12:57:01.644 [main] ReportManager - Assertion "ValidateEquals" PASSED. Expected "true" and Actual "true". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[DEBUG] 2023-12-12 12:57:01.644 [main] wire -  << "[{"bookingid":2157}]"
+[DEBUG] 2023-12-12 12:57:01.644 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2cef365b
+[DEBUG] 2023-12-12 12:57:01.645 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2023-12-12 12:57:01.671 [main] ReportManager - Successfully created attachment 'API Request - Specifications'
+[INFO ] 2023-12-12 12:57:01.672 [main] ReportManager - Successfully created attachment 'API Response - JSON Body'
+[DEBUG] 2023-12-12 12:57:01.674 [main] CompiledPath - Evaluating path: $[0]['bookingid']
+[INFO ] 2023-12-12 12:57:01.675 [main] ReportManager - Get response jsonvalue "$[0].bookingid".
+[DEBUG] 2023-12-12 12:57:01.686 [main] BasicClientConnectionManager - Get connection for route {s}->https://restful-booker.herokuapp.com:443
+[DEBUG] 2023-12-12 12:57:01.686 [main] DefaultClientConnectionOperator - Connecting to restful-booker.herokuapp.com:443
+[DEBUG] 2023-12-12 12:57:02.315 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2023-12-12 12:57:02.315 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2023-12-12 12:57:02.315 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2023-12-12 12:57:02.315 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2023-12-12 12:57:02.315 [main] DefaultClientConnection - Sending request: DELETE /booking/2157 HTTP/1.1
+[DEBUG] 2023-12-12 12:57:02.315 [main] wire -  >> "DELETE /booking/2157 HTTP/1.1[\r][\n]"
+[DEBUG] 2023-12-12 12:57:02.315 [main] wire -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[DEBUG] 2023-12-12 12:57:02.315 [main] wire -  >> "Cookie: token=6747fdb09248b99[\r][\n]"
+[DEBUG] 2023-12-12 12:57:02.315 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2023-12-12 12:57:02.315 [main] wire -  >> "Host: restful-booker.herokuapp.com[\r][\n]"
+[DEBUG] 2023-12-12 12:57:02.315 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2023-12-12 12:57:02.315 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.1)[\r][\n]"
+[DEBUG] 2023-12-12 12:57:02.315 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2023-12-12 12:57:02.315 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2023-12-12 12:57:02.316 [main] headers - >> DELETE /booking/2157 HTTP/1.1
+[DEBUG] 2023-12-12 12:57:02.316 [main] headers - >> Content-Type: application/json; charset=UTF-8
+[DEBUG] 2023-12-12 12:57:02.316 [main] headers - >> Cookie: token=6747fdb09248b99
+[DEBUG] 2023-12-12 12:57:02.316 [main] headers - >> Accept: */*
+[DEBUG] 2023-12-12 12:57:02.316 [main] headers - >> Host: restful-booker.herokuapp.com
+[DEBUG] 2023-12-12 12:57:02.316 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2023-12-12 12:57:02.316 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.1)
+[DEBUG] 2023-12-12 12:57:02.316 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2023-12-12 12:57:02.459 [main] wire -  << "HTTP/1.1 201 Created[\r][\n]"
+[DEBUG] 2023-12-12 12:57:02.459 [main] wire -  << "Server: Cowboy[\r][\n]"
+[DEBUG] 2023-12-12 12:57:02.460 [main] wire -  << "Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1702378583&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=3QGcaWTFD4VbfnQ6DLOeZpjm5QDp2R7zv7ikLB%2B88qo%3D"}]}[\r][\n]"
+[DEBUG] 2023-12-12 12:57:02.460 [main] wire -  << "Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1702378583&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=3QGcaWTFD4VbfnQ6DLOeZpjm5QDp2R7zv7ikLB%2B88qo%3D[\r][\n]"
+[DEBUG] 2023-12-12 12:57:02.460 [main] wire -  << "Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}[\r][\n]"
+[DEBUG] 2023-12-12 12:57:02.460 [main] wire -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2023-12-12 12:57:02.460 [main] wire -  << "X-Powered-By: Express[\r][\n]"
+[DEBUG] 2023-12-12 12:57:02.460 [main] wire -  << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+[DEBUG] 2023-12-12 12:57:02.460 [main] wire -  << "Content-Length: 7[\r][\n]"
+[DEBUG] 2023-12-12 12:57:02.460 [main] wire -  << "Etag: W/"7-rM9AyJuqT6iOan/xHh+AW+7K/T8"[\r][\n]"
+[DEBUG] 2023-12-12 12:57:02.460 [main] wire -  << "Date: Tue, 12 Dec 2023 10:56:23 GMT[\r][\n]"
+[DEBUG] 2023-12-12 12:57:02.460 [main] wire -  << "Via: 1.1 vegur[\r][\n]"
+[DEBUG] 2023-12-12 12:57:02.460 [main] wire -  << "[\r][\n]"
+[DEBUG] 2023-12-12 12:57:02.460 [main] DefaultClientConnection - Receiving response: HTTP/1.1 201 Created
+[DEBUG] 2023-12-12 12:57:02.460 [main] headers - << HTTP/1.1 201 Created
+[DEBUG] 2023-12-12 12:57:02.460 [main] headers - << Server: Cowboy
+[DEBUG] 2023-12-12 12:57:02.460 [main] headers - << Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1702378583&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=3QGcaWTFD4VbfnQ6DLOeZpjm5QDp2R7zv7ikLB%2B88qo%3D"}]}
+[DEBUG] 2023-12-12 12:57:02.460 [main] headers - << Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1702378583&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=3QGcaWTFD4VbfnQ6DLOeZpjm5QDp2R7zv7ikLB%2B88qo%3D
+[DEBUG] 2023-12-12 12:57:02.460 [main] headers - << Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+[DEBUG] 2023-12-12 12:57:02.460 [main] headers - << Connection: keep-alive
+[DEBUG] 2023-12-12 12:57:02.460 [main] headers - << X-Powered-By: Express
+[DEBUG] 2023-12-12 12:57:02.460 [main] headers - << Content-Type: text/plain; charset=utf-8
+[DEBUG] 2023-12-12 12:57:02.460 [main] headers - << Content-Length: 7
+[DEBUG] 2023-12-12 12:57:02.461 [main] headers - << Etag: W/"7-rM9AyJuqT6iOan/xHh+AW+7K/T8"
+[DEBUG] 2023-12-12 12:57:02.461 [main] headers - << Date: Tue, 12 Dec 2023 10:56:23 GMT
+[DEBUG] 2023-12-12 12:57:02.461 [main] headers - << Via: 1.1 vegur
+[DEBUG] 2023-12-12 12:57:02.461 [main] RestAssuredHttpBuilder - Parsing response as: text/plain; charset=utf-8
+[DEBUG] 2023-12-12 12:57:02.461 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[INFO ] 2023-12-12 12:57:02.462 [main] ReportManager - Response status code: "201", status line: "HTTP/1.1 201 Created"
+[INFO ] 2023-12-12 12:57:02.464 [main] ReportManager - Assertion "ValidateComparativeRelation" PASSED. Expected "201" and Actual "201". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[DEBUG] 2023-12-12 12:57:02.465 [main] wire -  << "Created"
+[DEBUG] 2023-12-12 12:57:02.465 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7bca96d6
+[DEBUG] 2023-12-12 12:57:02.465 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2023-12-12 12:57:02.486 [main] ReportManager - Successfully created attachment 'API Request - Specifications'
+[INFO ] 2023-12-12 12:57:02.488 [main] ReportManager - Successfully created attachment 'API Response - Body'
+[INFO ] 2023-12-12 12:57:02.490 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: deleteBookingTest'
+[INFO ] 2023-12-12 12:57:02.490 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                 Finished Execution of Test Method: 'RestfulBookerLinearTests.deleteBookingTest'                                 
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-12 12:57:02.509 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine teardown configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-12 12:57:02.511 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2023-12-12 12:57:02.511 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2023-12-12 12:57:02.512 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".
+[INFO ] 2023-12-12 12:57:02.513 [main] ReportManager - File Action "ReadFileAsByteArray" successfully performed. With the following test data "File Path: "C:\Users\nada.emad\IdeaProjects\ShaftPractice\target\logs\log4j.log"".
+[INFO ] 2023-12-12 12:57:02.513 [main] ReportManager - File Action "DeleteFile" successfully performed. With the following test data "Target File Path: "target/logs/log4j.log", file was not deleted.".
+[INFO ] 2023-12-12 12:57:02.516 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log: 20231212-125702'
+[DEBUG] 2023-12-12 12:57:02.526 [main] cache - Couldn't find template in cache for "spark/spark.spa.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-12 12:57:02.526 [main] cache - TemplateLoader.findTemplateSource("spark/spark.spa_en_US.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.526 [main] cache - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.527 [main] cache - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+[DEBUG] 2023-12-12 12:57:02.527 [main] cache - Loading template for "spark/spark.spa.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nada.emad/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+[DEBUG] 2023-12-12 12:57:02.534 [main] cache - Couldn't find template in cache for "commons/commons-variables.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-12 12:57:02.534 [main] cache - TemplateLoader.findTemplateSource("commons/commons-variables_en_US.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.535 [main] cache - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.535 [main] cache - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+[DEBUG] 2023-12-12 12:57:02.535 [main] cache - Loading template for "commons/commons-variables.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nada.emad/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+[DEBUG] 2023-12-12 12:57:02.582 [main] cache - Couldn't find template in cache for "commons/commons-macros.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-12 12:57:02.582 [main] cache - TemplateLoader.findTemplateSource("commons/commons-macros_en_US.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.583 [main] cache - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.583 [main] cache - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+[DEBUG] 2023-12-12 12:57:02.583 [main] cache - Loading template for "commons/commons-macros.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nada.emad/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+[DEBUG] 2023-12-12 12:57:02.589 [main] cache - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-12 12:57:02.589 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attributes_en_US.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.589 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.590 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+[DEBUG] 2023-12-12 12:57:02.590 [main] cache - Loading template for "spark/macros/attributes.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nada.emad/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+[DEBUG] 2023-12-12 12:57:02.591 [main] cache - Couldn't find template in cache for "spark/macros/log.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-12 12:57:02.591 [main] cache - TemplateLoader.findTemplateSource("spark/macros/log_en_US.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.591 [main] cache - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.591 [main] cache - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+[DEBUG] 2023-12-12 12:57:02.591 [main] cache - Loading template for "spark/macros/log.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nada.emad/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+[DEBUG] 2023-12-12 12:57:02.594 [main] cache - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-12 12:57:02.594 [main] cache - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_US.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.594 [main] cache - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.595 [main] cache - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+[DEBUG] 2023-12-12 12:57:02.595 [main] cache - Loading template for "spark/macros/recurse_nodes.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nada.emad/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+[DEBUG] 2023-12-12 12:57:02.598 [main] cache - "spark/macros/log.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+[DEBUG] 2023-12-12 12:57:02.598 [main] cache - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-12 12:57:02.599 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_US.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.599 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.599 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+[DEBUG] 2023-12-12 12:57:02.599 [main] cache - Loading template for "spark/macros/attr-common.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nada.emad/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+[DEBUG] 2023-12-12 12:57:02.607 [main] cache - Couldn't find template in cache for "spark/partials/head.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-12 12:57:02.607 [main] cache - TemplateLoader.findTemplateSource("spark/partials/head_en_US.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.607 [main] cache - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.608 [main] cache - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+[DEBUG] 2023-12-12 12:57:02.608 [main] cache - Loading template for "spark/partials/head.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nada.emad/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+[DEBUG] 2023-12-12 12:57:02.610 [main] cache - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-12 12:57:02.611 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_US.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.611 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.611 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+[DEBUG] 2023-12-12 12:57:02.611 [main] cache - Loading template for "commons/commons-inject-css.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nada.emad/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+[DEBUG] 2023-12-12 12:57:02.611 [main] cache - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-12 12:57:02.612 [main] cache - TemplateLoader.findTemplateSource("spark/partials/navbar_en_US.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.612 [main] cache - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.612 [main] cache - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+[DEBUG] 2023-12-12 12:57:02.612 [main] cache - Loading template for "spark/partials/navbar.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nada.emad/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+[DEBUG] 2023-12-12 12:57:02.617 [main] cache - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-12 12:57:02.618 [main] cache - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_US.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.618 [main] cache - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.618 [main] cache - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+[DEBUG] 2023-12-12 12:57:02.618 [main] cache - Loading template for "spark/partials/sidenav.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nada.emad/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+[DEBUG] 2023-12-12 12:57:02.625 [main] cache - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-12 12:57:02.625 [main] cache - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_US.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.625 [main] cache - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.625 [main] cache - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+[DEBUG] 2023-12-12 12:57:02.626 [main] cache - Loading template for "spark/partials/dashboard.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nada.emad/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+[DEBUG] 2023-12-12 12:57:02.652 [main] cache - Couldn't find template in cache for "spark/partials/test.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-12 12:57:02.652 [main] cache - TemplateLoader.findTemplateSource("spark/partials/test_en_US.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.652 [main] cache - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.653 [main] cache - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+[DEBUG] 2023-12-12 12:57:02.653 [main] cache - Loading template for "spark/partials/test.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nada.emad/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+[DEBUG] 2023-12-12 12:57:02.661 [main] cache - Couldn't find template in cache for "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-12 12:57:02.662 [main] cache - TemplateLoader.findTemplateSource("spark/partials/standard-content_en_US.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.662 [main] cache - TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.662 [main] cache - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+[DEBUG] 2023-12-12 12:57:02.662 [main] cache - Loading template for "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nada.emad/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl"
+[DEBUG] 2023-12-12 12:57:02.667 [main] cache - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+[DEBUG] 2023-12-12 12:57:02.668 [main] cache - Couldn't find template in cache for "spark/partials/exception.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-12 12:57:02.668 [main] cache - TemplateLoader.findTemplateSource("spark/partials/exception_en_US.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.668 [main] cache - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.668 [main] cache - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+[DEBUG] 2023-12-12 12:57:02.668 [main] cache - Loading template for "spark/partials/exception.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nada.emad/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+[DEBUG] 2023-12-12 12:57:02.669 [main] cache - Couldn't find template in cache for "spark/partials/log.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-12 12:57:02.669 [main] cache - TemplateLoader.findTemplateSource("spark/partials/log_en_US.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.670 [main] cache - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.670 [main] cache - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+[DEBUG] 2023-12-12 12:57:02.670 [main] cache - Loading template for "spark/partials/log.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nada.emad/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+[DEBUG] 2023-12-12 12:57:02.671 [main] cache - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-12 12:57:02.671 [main] cache - TemplateLoader.findTemplateSource("spark/partials/scripts_en_US.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.671 [main] cache - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.671 [main] cache - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+[DEBUG] 2023-12-12 12:57:02.671 [main] cache - Loading template for "spark/partials/scripts.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nada.emad/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+[DEBUG] 2023-12-12 12:57:02.672 [main] cache - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-12 12:57:02.672 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_US.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.672 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+[DEBUG] 2023-12-12 12:57:02.673 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+[DEBUG] 2023-12-12 12:57:02.673 [main] cache - Loading template for "commons/commons-inject-js.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nada.emad/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+[INFO ] 2023-12-12 12:57:02.677 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "allure-results/cucumberReport.html"".
+[INFO ] 2023-12-12 12:57:02.681 [main] ReportManager - Successfully created attachment 'HTML - Checkpoints Report'
+[INFO ] 2023-12-12 12:57:02.683 [main] ReportManager - Driver is already closed.
+[INFO ] 2023-12-12 12:57:02.687 [main] ReportManager - ===============================================
+[INFO ] 2023-12-12 12:57:02.688 [main] ReportManager - Default Suite
+[INFO ] 2023-12-12 12:57:02.688 [main] ReportManager - Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
+[INFO ] 2023-12-12 12:57:02.688 [main] ReportManager - ===============================================
+[INFO ] 2023-12-12 12:57:02.695 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative File Path: "execution-summary/ExecutionSummaryReport_12-12-2023_12-57-02-0690-PM.html"".
+[INFO ] 2023-12-12 12:57:02.698 [main] ReportManager - File Action "WriteToFile" successfully performed. With the following test data "Target File Path: "C:\Users\nada.emad\IdeaProjects\ShaftPractice\execution-summary\ExecutionSummaryReport_12-12-2023_12-57-02-0690-PM.html"".
+[INFO ] 2023-12-12 12:57:02.710 [main] ReportManager - Executing: ".\execution-summary/ExecutionSummaryReport_*.html" locally.
+[INFO ] 2023-12-12 12:57:03.064 [main] ReportManager - Terminal Action "PerformTerminalCommands" successfully performed. With the following test data "Host Name: "localHost" | Command: ".\execution-summary/ExecutionSummaryReport_*.html" | Exit Status: "0"".
+[INFO ] 2023-12-12 12:57:03.065 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                         Test Execution Summary Results                                                         
+                                              Total Cases: 2 --> Passed: 2 | Failed: 0 | Skipped: 0                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-12 12:57:03.065 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           This test run was powered by [1mSHAFT v.7.4.20231026[22m                                           
+                               SHAFT [1;4mis and will always be 100% FREE[22;24m for commercial and private use                               
+                                                   in compliance with the [1mMIT license[22m                                                   
+                                   Visit SHAFT's user guide [4mhttps://shafthq.github.io/[24m to learn more                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
