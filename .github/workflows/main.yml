@@ -37,7 +37,7 @@ jobs:
       if: success() || failure()    # run this step even if previous step failed
       with:
           name: JEST Tests            # Name of the check run which will be created
-          path: target/surefire-reports/TEST-*.xml    # Path to test results
+          path: /allure-results/environment   # Path to test results
           reporter: java-junit
       
         
